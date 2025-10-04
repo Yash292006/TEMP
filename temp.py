@@ -14,3 +14,19 @@ elif 30 <= temp < 40:
     print("Alert: It's Hot! Stay hydrated ")
 else:
     print("Alert: Extreme Heat! Avoid going outside ")
+    # Program to display temperature alert based on Fahrenheit input
+
+# Take temperature input in Fahrenheit
+temp = float(input("Enter the temperature (in °F): "))
+
+# Check temperature range and display message
+if temp < 32:
+    print("Alert: Freezing temperature! Stay warm ❄")
+elif 32 <= temp < 68:
+    print("Weather is Cold. Wear a jacket 🧥")
+elif 68 <= temp < 86:
+    print("Weather is Pleasant. Enjoy your day 😊")
+elif 86 <= temp < 104:
+    print("Alert: It's Hot! Stay hydrated ☀")
+else:
+    print("Alert: Extreme Heat! Avoid going outside 🔥")
